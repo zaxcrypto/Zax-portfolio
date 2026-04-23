@@ -2448,97 +2448,12 @@
             #mobile-advise {
                 display: flex;
             }
-
             body {
                 overflow: hidden !important;
                 height: 100vh !important;
             }
-
-            /* Hide all main content wrappers to be extra sure */
-            nav,
-            .hero,
-            .about,
-            .stack,
-            .skill-section,
-            .portfolio-section,
-            .workflow-container,
-            footer {
+            nav, .hero, .about, .stack, .skill-section, .portfolio-section, .workflow-container, footer {
                 display: none !important;
-            }
-        }
-
-        .ma-box {
-            background: var(--glass-heavy);
-            border: 1px solid var(--glass-border);
-            padding: 40px 30px;
-            border-radius: 28px;
-            text-align: center;
-            position: relative;
-            max-width: 320px;
-            box-shadow: var(--sh-xl);
-            animation: heroFadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-
-        .ma-close {
-            position: absolute;
-            top: 18px;
-            right: 18px;
-            width: 32px;
-            height: 32px;
-            background: var(--accent-soft);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            color: var(--accent);
-            font-weight: 900;
-            font-size: 14px;
-        }
-
-        .ma-title {
-            font-family: var(--fd);
-            font-size: 28px;
-            color: var(--accent);
-            margin-bottom: 12px;
-            line-height: 1;
-        }
-
-        .ma-text {
-            font-size: 14px;
-            color: var(--ink3);
-            line-height: 1.6;
-        }
-
-        @media(max-width:900px) {
-            #mobile-advise {
-                display: flex;
-            }
-
-            .hero-title h1 {
-                font-size: clamp(50px, 15vw, 80px) !important;
-            }
-
-            .hero {
-                padding-top: 140px !important;
-            }
-
-            .workflow-container {
-                transform: scale(0.7) translateY(-50px);
-            }
-
-            .about-sticky {
-                display: block !important;
-                height: auto !important;
-            }
-
-            .about-left {
-                border-right: none !important;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            }
-
-            .about-sticky-wrap {
-                height: auto !important;
             }
         }
 
